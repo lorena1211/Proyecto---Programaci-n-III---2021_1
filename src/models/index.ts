@@ -7,3 +7,5 @@ export * from './inmueble.model';
 export * from './bloque.model';
 export * from './proyecto.model';
 export * from './cliente.model';
+export * from './usuario.model';
+export * from './tipo-usuario.model';
