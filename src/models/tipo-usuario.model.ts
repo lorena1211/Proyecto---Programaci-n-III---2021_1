@@ -5,7 +5,7 @@ export class TipoUsuario extends Entity {
   @property({
     type: 'string',
     id: true,
-    generated: true
+    generated: true,
   })
   _id?: string;
 
