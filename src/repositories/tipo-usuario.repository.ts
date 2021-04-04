@@ -1,4 +1,4 @@
-import {inject, Getter} from '@loopback/core';
+import {Getter, inject} from '@loopback/core';
 import {DefaultCrudRepository, repository, HasManyRepositoryFactory} from '@loopback/repository';
 import {MongodbdsDataSource} from '../datasources';
 import {TipoUsuario, TipoUsuarioRelations, Usuario} from '../models';
